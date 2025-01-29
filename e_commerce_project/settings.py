@@ -16,6 +16,7 @@ import os
 import dj_database_url
 from dotenv import load_dotenv
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -85,7 +86,6 @@ load_dotenv()
 DATABASES = {
     'default': dj_database_url.config(default=os.getenv("DATABASE_URL"))
 }
-
 
 
 # Password validation
