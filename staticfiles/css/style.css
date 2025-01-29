@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sevillana&display=swap');
+
+
+* {
+    font-family: "PT Sans", sans-serif;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: top;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.old_price {
+    font-weight: bold;
+    color: red;
+}
+
+.new_price {
+    font-weight: bold;
+    color: green;
+}
+
+.pic-box {
+    position: relative;
+}
+
+.hot {
+    background-color: orangered;
+    color: white;
+    width: 4rem;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    z-index: 10;
+}
+
+@media (max-width: 600px) {
+
+    .pic-box, .detail-box {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .detail-box {
+        margin-top: 2rem;
+    }
+
+}
