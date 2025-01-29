@@ -31,7 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default = False, cast = bool)
 
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', default = [])
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['e-commerce-django-1r1b.onrender.com','127.0.0.1', 'localhost']
 
 
 # Application definition
